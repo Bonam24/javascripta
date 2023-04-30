@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html, body{
+            height: 100%;
+        }
+        #banner{
+            background-color: blue;
+            padding-top: 5%;
+            padding-left: 10%;
+            height: 30%;
+        }
+        #buttons{
+            margin-top: 1em;
+            padding-left: 1em;
+        }
+    </style>
+</head>
+<body>
+   
+    <div id="banner">
+        <h1>This is only the beginning</h1>
+    </div>
+    <div id="buttons">
+        <input type="button" value="previous" onclick="previouscolor()">
+        <input type="button" value="next" onclick="nextcolor()">
+    </div>
+    <script>
+        var x = ["blue","green","red","yellow","purple"]
+        var i=0;
+       function nextcolor(){
+       
+        i=i+1;
+        if(i==x.length){
+            i=0;
+        }
+        document.getElementById("banner").style.backgroundColor= x[i];
+       }
+       function previouscolor(){
+        i=i-1;
+        if(i<0){
+            i=x.length-1;
+        }
+        document.getElementById("banner").style.backgroundColor= x[i];
+       }
+
+    </script>
+</body>
+</html>

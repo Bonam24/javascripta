@@ -1,0 +1,240 @@
+*{
+    margin: 0em;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 4em;
+    background-color:#615eb8;
+    align-items: center;
+    color: white;
+    padding-left: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:1.1em;
+    position: fixed;
+    width: 100%;
+}
+header div nav{
+    display: flex;
+    margin-right: 2em;
+}
+header div nav li{
+    list-style-type: none;
+    margin: 0 1em;
+}
+header div nav li a{
+    text-decoration: none;
+    color: white;
+    padding:0.8em;
+    border-radius: 0.8em;
+}
+header div nav li a:hover{
+    background-color:#8885d9 ;
+}
+@media only screen and (max-width:800px){
+    header{
+        display:none;
+    }
+}
+/*End of header styling*/
+.one{
+    height: 42em;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    padding-top: 7em;
+    box-sizing: border-box;
+}
+.one div{
+    width: 48%;
+}
+.one div h2{
+    text-align: center;
+    margin-top: 0.6em;
+}
+.one div p{
+    text-align: justify;
+    font-size: 1.3em;
+    line-height: 1.3em;
+}
+.one div img{
+    height: 30em; 
+    border-radius: 1em;
+    width: 90%;
+    box-shadow: 0.1em 0.1em 0.1em #615eb8;
+    
+}
+.one div button{
+    margin-left: 40%;
+    margin-top: 2em;
+    height: 2em;
+    width: 8em;
+    background-color: #cff067;
+}
+.one div button a{
+    text-decoration: none;
+}
+
+/*End of section one styling*/
+.two{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 18em;
+    
+}
+.two div{
+    margin-top: 2em;
+    border-radius: 1em;
+    width: 30%;
+    height: 15em;
+    border: 1px solid #ff816d;
+    padding: 1.7em 1em;
+    box-sizing: border-box;
+}
+
+.two div li{
+    font-size: 1.2em;
+    line-height: 2em;
+    list-style-type: square;
+}
+/*end of section 2*/
+h3{
+    font-size: 1.5em;
+    text-decoration: none;
+    margin-top: 1em;
+    text-align: center;
+}
+.three{
+    height: 20em;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    font-size: 1.3em;
+    margin-top: 2em;
+    box-sizing: border-box;
+}
+.three div{
+    width: 22%;
+    height: 18em;
+    border: 0.1em solid #ff816d;
+    padding: 0.5em;
+    box-sizing: border-box;
+    border-radius: 1em;
+    text-align: center;
+}
+.three div img{
+    height: 4em;
+    width: 6em;
+    margin-bottom: 1em;
+}
+.three div h5{
+    font-size: 1.2em;
+}
+.three div button{
+    margin-top: 2em;
+    width: 7em;
+    height: 2em;
+    background-color: #cff067;
+}
+#more{
+    text-align: center;
+    width: 100%;
+    height: 2em;
+    box-sizing: border-box;
+    margin-bottom: 2em;
+    
+}
+#more a{
+    text-decoration: none;
+    color: white;
+    background-color: #ff816d;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    font-size: 1.2em;
+}
+/*End of section 4*/
+.five{
+    display: flex;
+    height: 29em;
+    width: 80%;
+    margin-left: 15%;
+}
+.five div{
+    width: 45%;
+    padding: 1em;
+    height: 24em;
+}
+.five div p{
+    font-size: 1.3em;
+    text-align: justify;
+    line-height: 1.3em;
+}
+.five div h6{
+    font-size: 1.3em;
+    
+}
+.five div img{
+    width: 70%;
+    height: 22em;
+    margin-top: 2em;
+    border-radius: 0.5em;
+    margin-left: 10%;
+    border: 0.2em solid #8885d9;
+}
+button a{
+    text-decoration: none;
+}
+button:hover{
+    background-color: #8885d9;
+    color: white;
+}
+.five div button {
+    margin-top: 1em;
+    margin-left: 40%;
+    width: 4em;
+    height: 2em;
+    background-color: #cff067;
+}
+/*End of section 5*/
+
+.footer{
+    height: 13em;
+    width: 100%;
+    background-color: #615eb8;
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 0;
+}
+.footer div{
+    width: 30%;
+    color: white;
+    font-size: 1.3em;
+    box-sizing: border-box;
+    line-height: 1.5em;
+    text-align: justify;
+}
+.footer div a{
+    color: #fff;
+}
+.footer div h6{
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+.footer div li{
+    list-style-type: none;
+    text-align: center;
+}
+.last-section{
+    background-color: #615eb8;
+    padding: 0.5em;
+    box-sizing: border-box;
+}
+.copyright{
+   
+    color: black;
+}
